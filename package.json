@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "vite",
+    "dev:app": "vite",
+    "dev:json": "json-server --watch db.json",
     "build": "vite build",
     "preview": "vite preview"
   },
